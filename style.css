@@ -20,7 +20,7 @@ header { grid-area: header;
          font-size:xx-large;
         }
 nav    { grid-area: nav;
-         background-color:blueviolet;
+         background-color:#990000;
          padding-top:1cm;
          padding-left: 10px;
          margin-left: 15px;
@@ -33,15 +33,16 @@ main   { grid-area: main;
    padding-top: 10cm;
    font-size: x-large;
    color: black;
+   border-style: dashed
 }
  
 footer {grid-area: footer;
-  background-color: #333;
+  background-color:burlywood;
   color: white;
   padding-bottom: 5px;
   padding-left: 10px;
   font-size: large;
-  margin-bottom: 5px;
+  margin-bottom: 30px;
   margin-left: 115px;
   margin-right: 20px;
   border-radius: 20px;
