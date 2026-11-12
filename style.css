@@ -2,7 +2,7 @@ body{
     margin: 0;
     min-height: 100vh;
     display: grid;
-    grid-template-columns: 150px 1fr;
+    grid-template-columns:100px 1fr;
     grid-template-rows: 60px 1fr auto;
     grid-template-areas:
         "header header"
@@ -23,6 +23,10 @@ nav    { grid-area: nav;
          background-color:blueviolet;
          padding-top:1cm;
          padding-left: 10px;
+         margin-left: 15px;
+         border-radius: 15px;
+         margin-top: 15px;
+         margin-bottom: 5px ; 
         }
 main   { grid-area: main; 
    padding-left: 7cm ;
@@ -37,4 +41,8 @@ footer {grid-area: footer;
   padding-bottom: 5px;
   padding-left: 10px;
   font-size: large;
+  margin-bottom: 5px;
+  margin-left: 115px;
+  margin-right: 20px;
+  border-radius: 20px;
 }
