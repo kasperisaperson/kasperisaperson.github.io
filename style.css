@@ -23,8 +23,8 @@ header { grid-area: header;
          padding-left: 50px;
          padding-top: 9px;
          padding-bottom: 3px;
-         font-size:xx-large;
-         margin-left: 127px;
+         font-size:50px;
+         margin-left: 115px;
          border-radius: 0px 0px 0px 55px;
          z-index: 1000;
         }
@@ -36,6 +36,7 @@ nav    { grid-area: nav;
          border-radius: 15px;
          margin-top: 15px;
          margin-bottom: 5px ; 
+         font-size: large;
         }
 main   { grid-area: main; 
    padding-left: 7cm ;
@@ -55,5 +56,6 @@ footer {grid-area: footer;
   margin-left: 115px;
   margin-right: 20px;
   border-radius: 20px;
+  font-size: larger;
 }
 
