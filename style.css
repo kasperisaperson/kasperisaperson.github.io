@@ -9,15 +9,24 @@ body{
         "nav    main"
         "footer footer";
 }
+img {
+        position: fixed;
+        border border-radius: 25;
+        height 130px;
+        width: 130px;
+}
  
 header { grid-area: header;
          background-color: #333;
          color: white;
          flex-direction: column-reverse;
-         padding-left: 15px;
+         padding-left: 50px;
          padding-top: 9px;
          padding-bottom: 3px;
          font-size:xx-large;
+         margin-left: 127px;
+         border-radius: 0px 0px 0px 55px;
+         z-index: 1000;
         }
 nav    { grid-area: nav;
          background-color:#990000;
@@ -33,7 +42,7 @@ main   { grid-area: main;
    padding-top: 10cm;
    font-size: x-large;
    color: black;
-   border-style: dashed
+   
 }
  
 footer {grid-area: footer;
@@ -47,3 +56,4 @@ footer {grid-area: footer;
   margin-right: 20px;
   border-radius: 20px;
 }
+
