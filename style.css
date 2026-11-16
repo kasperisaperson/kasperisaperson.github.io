@@ -24,7 +24,7 @@ header {
     grid-area: header;
     background-color: #333;
     color: white;
-    font-size: 50px;
+    font-size: 3rem;
     padding: 0 3rem;
     display: flex;
     align-items: center;
@@ -36,7 +36,7 @@ header {
     border: 2px solid #555;
     border-radius: 10px;
     padding: 6px 14px;
-    font-size: 18px;
+    font-size: 1.5rem;
     display: flex;
     gap: 16px;
 }
@@ -51,9 +51,12 @@ header {
 }
 
 picture {
-        margin-top: 1rem;
-        width: px;
-        height: px;
+    margin-top: 3rem;
+}
+
+picture img {
+    width: 1100px; 
+    height: 600px; 
 }
 
 main   { grid-area: main; 
@@ -71,6 +74,6 @@ footer {grid-area: footer;
   font-size: large;
   margin-bottom: 30px;
   border-radius: 20px;
-  font-size: larger;
+  font-size: 1.5rem;
 }
 
