@@ -50,12 +50,17 @@ header {
     color: burlywood;
 }
 
+picture {
+        margin-top: 1rem;
+        width: px;
+        height: px;
+}
+
 main   { grid-area: main; 
    padding-left: 7cm ;
    padding-top: 10cm;
    font-size: x-large;
-   color: black;
-   
+   color: black;   
 }
  
 footer {grid-area: footer;
