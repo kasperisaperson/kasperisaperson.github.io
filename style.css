@@ -19,13 +19,36 @@ body{
 }
 
  
-header { grid-area: header;
-         background-color: #333;
-         color: white;
-         flex-direction: column-reverse;
-         font-size:50px;
-         padding-left: 3rem
-        }
+
+header {
+    grid-area: header;
+    background-color: #333;
+    color: white;
+    font-size: 50px;
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-box {
+    background-color: #444;
+    border: 2px solid #555;
+    border-radius: 10px;
+    padding: 6px 14px;
+    font-size: 18px;
+    display: flex;
+    gap: 16px;
+}
+
+.nav-box a {
+    color: white;
+    text-decoration: none;
+}
+
+.nav-box a:hover {
+    color: burlywood;
+}
 
 main   { grid-area: main; 
    padding-left: 7cm ;
