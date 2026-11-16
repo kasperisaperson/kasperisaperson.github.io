@@ -1,5 +1,5 @@
 html{
-        background-color: black;
+        background-color:#dfe7e2; ;
 }
 
 
@@ -7,15 +7,16 @@ body{
     margin: 0;
     min-height: 100vh;
     display: grid;
-    grid-template-columns:100px 1fr;
-    grid-template-rows: 60px 1fr auto;
+    grid-template-columns:150px 2fr;
+    grid-template-rows: 85px 3fr auto;
     grid-template-areas:
         "header header"
-        "main aside"
+        "picture picture"
+        "main main"
         "footer footer";
         margin: 0 auto;
         max-width:1300px ;
-        background-color: whitesmoke;
+        background-color: white;
 }
 
  
@@ -51,7 +52,9 @@ header {
 }
 
 picture {
-    margin-top: 3rem;
+    margin-top:;
+    justify-self: auto;
+    margin-left: 100px;
 }
 
 picture img {
@@ -59,11 +62,11 @@ picture img {
     height: 600px; 
 }
 
-main   { grid-area: main; 
-   padding-left: 7cm ;
-   padding-top: 10cm;
-   font-size: x-large;
+main   { grid-area: main;
+   font-size: 3rem;
    color: black;   
+   justify-self: center;
+   margin-bottom:300px ;
 }
  
 footer {grid-area: footer;
@@ -75,5 +78,7 @@ footer {grid-area: footer;
   margin-bottom: 30px;
   border-radius: 20px;
   font-size: 1.5rem;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 
