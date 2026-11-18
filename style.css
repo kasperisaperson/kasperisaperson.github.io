@@ -1,5 +1,6 @@
 html{
         background-color:#dfe7e2; ;
+        scroll-behavior: smooth;
 }
 
 
@@ -45,6 +46,7 @@ header {
 .nav-box a {
     color: white;
     text-decoration: none;
+    transition: background-color 0.2s ease, color 0.2s ease;
 }
 
 .nav-box a:hover {
