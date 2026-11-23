@@ -26,11 +26,12 @@ header {
     grid-area: header;
     background-color: #333;
     color: white;
-    font-size: 3rem;
+    font-size: clamp(1.5rem, 2rem, 3rem);
     padding: 0 3rem;
     display: flex;
     align-items: center;
     justify-content: space-between;
+    
 }
 
 .nav-box {
@@ -59,8 +60,7 @@ picture {
 }
 
 picture img {
-    width: 1100px; 
-    height: 600px; 
+
 }
 
 main {
