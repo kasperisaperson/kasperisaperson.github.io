@@ -28,7 +28,7 @@ header {
     grid-area: header;
     background-color: #333;
     color: white;
-    font-size: clamp(1.3rem, 3.5vw, 2.2rem);
+    font-size: clamp(1.3rem, 3.5vw, 2.5rem);
     padding: 16px 24px;
     display: flex;
     flex-wrap: wrap;
