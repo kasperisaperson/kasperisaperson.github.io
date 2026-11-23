@@ -19,7 +19,6 @@ body {
         "aside1 aside2"
         "footer footer";
     gap: 20px;
-    border-radius:10px;
 }
  
 
@@ -32,7 +31,6 @@ header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-radius:10px 10px 0px 0px;
 }
 
 .nav-box {
