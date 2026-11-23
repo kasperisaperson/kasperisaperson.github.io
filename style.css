@@ -56,11 +56,14 @@ header {
 
 picture {
     grid-area: picture;
+    display:flex;
     justify-self: center;
+    padding-left: 10%;
 }
 
 picture img {
-
+ width: 90%;
+ height: 90%;
 }
 
 main {
